@@ -1,0 +1,71 @@
+.home_main{
+    height: 100vh;
+    background-image: url(./images/home.png)  ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home_1 h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+.home_1 h2:nth-of-type(2){
+    color: #000;
+    font-weight: 550;
+}
+
+.home_2 p{
+    font-size: 20px;
+    color: #4694BF;
+}
+
+.home_3 button{
+    padding: 8px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    background-color: #115173;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+.home_3 button a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.home_3 button:active{
+    transform: scale(0.98);
+}
+
+
+.d-flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.d-flex-r{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 450px) {
+    .home_2 p{
+        font-size: 20px;
+        color: #4694BF;
+        margin: 50px 0;
+        text-align: center;
+    }
+    .home_1{
+        margin-top: 40px;
+    }
+    
+}
