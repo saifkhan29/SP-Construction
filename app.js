@@ -1,3 +1,29 @@
+// start of gsap
+
+gsap.from('.home_1', { 
+    duration: 1, 
+    y: '-50%',
+    ease: 'ease-in',
+    opacity: 0
+})
+gsap.from('.home_2', { 
+    duration: 1, 
+    y: '-50%',
+    ease: 'ease-in',
+    opacity: 0
+})
+gsap.from('.home_3', { 
+    duration: 1, 
+    y: '-50%',
+    ease: 'ease-in',
+    opacity: 0
+})
+
+// end of gsap
+
+
+
+
 const hamburger = document.querySelector('.navImg');
 const navMain = document.querySelector('.navMain');
 const cancel = document.querySelector('.navImg2')
@@ -308,4 +334,6 @@ footer_click2.addEventListener('click', () => {
 
 
 //end of navigation
+
+
 
